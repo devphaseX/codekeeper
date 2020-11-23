@@ -1,0 +1,162 @@
+.header {
+    background: url(../img/header-image@3x.png) {
+        position: center;
+        size: cover;
+    }
+
+    position: relative;
+    height: 75rem;
+}
+
+.navigation {
+    background-color: $colour-white;
+    box-shadow: 0 3px 10px rgba(#000, .2);
+
+    padding: {
+        top: 2rem;
+        bottom: 2rem;
+    }
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        list-style: none;
+        font-family: $text-font;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
+    &__link:link,
+    &__link:visited {
+        text: {
+            decoration: none;
+            transform: uppercase;
+        }
+
+        color: $text-color;
+
+        font: {
+            size: 1.5rem;
+            weight: 400;
+        }
+
+        transition: all .4s;
+    }
+
+    &__link:hover:not(last-child),
+    &__link:active:not(last-child) {
+        color: $primary-colour;
+    }
+}
+
+.hero {
+    &-centre {
+        margin-top: 16vh;
+    }
+
+    &-centre-2 {
+        margin-top: 15vh;
+    }
+
+    &-content {
+        p {
+            font: {
+                size: 1.6rem;
+                weight: 300;
+            }
+        }
+    }
+
+    &--background {
+        height: 50rem;
+    }
+
+    &__image {
+        height: 100%;
+        display: block;
+        float: right;
+        width: 100%;
+    }
+
+    &__paragraph {
+        font: {
+            size: 1.6rem;
+            family: $text-font;
+        }
+
+        color: $display-colour;
+        max-width: 90%;
+    }
+
+
+    &__primary-btn {
+        margin-right: 2.5rem;
+    }
+
+
+}
+
+.site-integrat {
+    margin-top: -16rem !important;
+    color: $display-colour;
+    margin-left: -6.5rem;
+
+    p {
+        text-align: center;
+        font: {
+            family: $display-font;
+            weight: 400;
+        }
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+}
+
+.support-com {
+
+    display: grid;
+    grid: {
+        template-columns: repeat(6, 1fr);
+        row-gap: .5rem;
+    }
+
+    align-items: center;
+    justify-items: center;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.support {
+
+    &__image {
+        display: inline-block;
+        height: 30px;
+    }
+
+    &__name {
+        font: {
+            family: $text-font;
+            size: 1.2rem;
+        }
+
+        line-height: 1.4;
+
+        &--v {
+            margin-left: 2rem;
+        }
+
+    }
+}

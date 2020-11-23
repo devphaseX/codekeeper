@@ -1,0 +1,47 @@
+-----------------------------HEADER HERO-------------------------------
+title -- Source code escrow for developers
+btn -- get started
+	learn more
+
+An all-in-one solution for software developers and publishers to provide source 
+code escrow as part of service level and license agreements.
+
+more after image -- Some of our fully automatic integrations:
+
+sub-title -- Protect your code and data
+
+If you license software, outsource your software development, or host your software in 
+the cloud or external data centers, then you are at risk of accidental loss or stolen data, 
+backup recovery problems, and many more catastrophic problems. 
+Escrow is the easy and affordable way to protect yourself from these multiple risks.
+
+Trusted partner of these great brands from around the world…
+
+
+SECTION 3
+
+Why People Choose Codekeeper
+
+INDUSTRY LEADING PRICING - NO LAWYER FEES
+
+Our pricing model is completely different from traditional providers. Learn more
+
+
+SELL MORE SOFTWARE
+
+Use escrow to eliminate risk for your clients and you will experience 
+why software escrow is often referred to as ‘the great sales enabler’.
+
+
+EASY TO USE
+
+Codekeeper fits directly into modern development and source code management 
+workflows. No need for manual procedures.
+
+
+
+SECTION 4
+
+
+
+

@@ -1,0 +1,146 @@
+.btn {
+    font-family: $text-font;
+
+    &:link,
+    &:visited {
+        padding: 1rem 4.9rem;
+        border-radius: 200px;
+        transition: all .2s;
+
+        font: {
+            weight: 700 !important;
+            size: 1.4rem !important;
+        }
+
+        display: inline-block;
+    }
+
+    text: {
+        transform: uppercase;
+        decoration: none;
+    }
+
+    &--shallow {
+        border: 1px solid currentColor;
+        color: $primary-colour !important;
+
+        &:active,
+        &:hover {
+            background-color: $primary-colour;
+            color: $colour-white !important;
+        }
+    }
+
+    &--full {
+        border: 1px solid transparent;
+
+        &-white {
+            background-color: $colour-white;
+            color: $primary-colour;
+
+            &:hover,
+            &:active {
+                color: $colour-white;
+                border-color: currentColor;
+                background-color: transparent;
+            }
+        }
+
+        &-green {
+            background-color: $primary-colour;
+            color: $colour-white;
+            background-color: $primary-colour;
+            text-align: right;
+
+            &:hover,
+            &:active {
+                background-color: $primary-colour-dark;
+            }
+        }
+
+    }
+
+    &--green {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &--neutral:link,
+    &--neutral:visited  {
+        color: $primary-colour;
+        text: {
+            transform: uppercase;
+            decoration: none;
+        }
+        font: {
+            family: $text-font;
+            size: 1.3rem;
+            weight: 700;
+        }
+
+    }
+}
+
+.btn-inline {
+
+    &:link,
+    &:visited {
+        text: {
+            decoration: none;
+        }
+        display: inline-block;
+
+        font: {
+            size: 1.6rem;
+            family: $text-font;
+        }
+        border-bottom: 1px solid currentColor;
+        transition: all .2s;
+    }
+
+    &--white {
+        color: $colour-white;
+
+        &:hover,
+        &:active {
+            color: $display-colour;
+            border-color: currentColor;
+        }
+    }
+
+    &--green {
+        color: $primary-colour;
+
+        &:hover,
+        &:active {
+            color: $primary-colour-dark;
+            border-color: currentColor;
+        }
+    }
+
+}
+
+.line {
+    
+    &::after {
+        content: "";
+        display: inline-block;
+        background-color: $primary-colour;
+        width: 70px;
+        height: 4px;
+    }
+    margin-bottom: .5rem;
+
+    &--right {
+        text-align: right;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &--centre {
+        text-align: center;
+    }
+}
+

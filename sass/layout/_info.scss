@@ -1,0 +1,27 @@
+
+.section-info {
+    padding: 10rem 0;
+}
+
+.info__paragraph {
+    font: {
+        size: 1.6rem;
+        family: $text-font;
+    }
+
+    text-align: right;
+    line-height: 1.7;
+    color: $text-color;
+    padding-left: 5%;
+}
+
+.info-img {
+    position: relative;
+    transform: translateY(-30%);
+}
+
+.info-photo-2 {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}

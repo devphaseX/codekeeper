@@ -1,0 +1,41 @@
+
+.service {
+    padding: 8rem 0;
+
+    &__item {
+        display: grid;
+        grid: {
+            template-columns: min-content minmax(10rem, 1fr);
+            gap: 3rem;
+        }
+        
+        margin-bottom: 6rem;
+    }
+
+    &__paragraph {
+        grid: {
+            column: 2/-1;
+        }
+
+        font: {
+            size: 1.6rem;
+            family: $text-font;
+        }
+        color: $text-color;
+        max-width: 35rem;
+
+        a {
+            color: $primary-colour;
+            text-decoration: none;
+        }
+    }
+
+    &-background {
+        margin-top: 14rem;
+    }
+
+    &__image {
+        height: 93vh;
+        margin-left: -7rem;
+    }
+}

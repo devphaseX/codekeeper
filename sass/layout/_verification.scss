@@ -1,0 +1,57 @@
+
+
+.section-verification {
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    font: {
+        size: 1.6rem;
+        family: $text-font;
+    }
+    color: $text-color;
+    width: 94%;
+    margin: 0 auto;
+    box-shadow: $bd-lg;
+    border-radius: 12px;
+}
+
+.verification {
+
+
+    &__content {
+        text-align: right;
+        max-width: 87%;
+        float: right;
+    }
+
+    &__image {
+        margin-top: -5rem;
+    }
+
+    &__feature {
+        max-width: 35rem;
+
+        p {
+            margin-bottom: 2.5rem;
+            margin-top: 1.2rem;
+        }
+    }
+
+    &__icon {
+        margin-bottom: 4rem;
+    }
+
+    &__heading {
+        margin-bottom: 1rem;
+    }
+}
+
+.left-arrow {
+    height: 12px;
+    vertical-align: middle;
+    transition: all .2s;
+}
+
+.btn--neutral:hover .left-arrow,
+.btn--neutral:active .left-arrow {
+    margin-left: .5rem;
+}

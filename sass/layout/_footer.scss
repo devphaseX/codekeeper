@@ -1,0 +1,28 @@
+
+.footer {
+    padding: 10rem 0;
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__items {
+        list-style: none;
+        font-family: $text-font;
+        font-size: 1.4rem;
+        color: $text-color;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        &-1 {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}

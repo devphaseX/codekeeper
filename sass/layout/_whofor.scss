@@ -1,0 +1,70 @@
+
+.section-whofor {
+    padding: 8rem 0;
+
+}
+
+.whofor {
+    &-paragraph {
+        font: {
+            size: 1.6rem;
+            family : $text-font;
+        }
+        max-width: 76rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &-box {
+        display: grid;
+        grid: {
+            template-columns: 13rem 1fr;
+        }
+        box-shadow: 0px 4px 12px rgba(172, 137, 137, 0.2);
+        border-radius: 5px;
+        height: 207px;
+        overflow: hidden;
+        
+    }
+
+    &-container {
+        padding: 2rem 1.5rem;
+    }
+
+    &__photo {
+        // width: 30%;
+        overflow: hidden;
+        border: {
+            top-left-radius: 5px;
+            bottom-left-radius: 5px;
+        }
+
+    }
+
+    &-heading {
+        color: $primary-colour !important;
+    }
+
+    &__content {
+        font: {
+            family: $text-font;
+            size: 1.5rem;
+        }
+        margin: {
+            top: 2rem;
+            bottom: 3rem;
+        }
+        color: #808080;
+    }
+
+    &__image {
+        width: 100%;
+        transform: scale(2.5) translateX(-1.3rem) translateY(2.4rem);
+        object-fit: cover;
+        object-position: center;
+
+        &--2 {
+            transform: scale(2.9) translateX(.3rem) translateY(2.4rem);
+        }
+    }
+}

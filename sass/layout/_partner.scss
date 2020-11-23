@@ -1,0 +1,19 @@
+.partner {
+    padding-bottom: 10rem;
+    display: grid;
+
+    grid: {
+        template-columns: repeat(6, minmax(min-content,1fr));
+        gap: 8rem  7rem;
+    }
+    
+    align-items: center;
+
+    &-heading {
+        text-align: center;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

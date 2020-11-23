@@ -1,0 +1,35 @@
+%info {
+    width: 73%;
+
+    font: {
+        size: 1.6rem;
+        family: $text-font;
+    }
+    
+    color: $text-color;
+    margin: 0 auto;
+
+}
+
+
+.integration {
+    text-align: center;
+
+    &__content {
+        @extend %info;
+        margin-bottom: 3rem;
+    }
+
+    &__bkg {
+        width: 100%;
+    }
+
+    &__contact {
+        @extend %info;
+
+        span {
+            color: $primary-colour;
+        }
+        margin-bottom: 2.5rem;
+    }
+}

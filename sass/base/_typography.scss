@@ -1,0 +1,58 @@
+%heading {
+    font-family: $display-font;
+}
+
+.heading-primary {
+    font: {
+        size: 4rem;
+        weight: 700;
+    }
+    @extend %heading;
+    line-height: 1.3;
+    margin-bottom: 3rem;
+    color: $colour-white;
+}
+
+.heading-secondary {
+    font: {
+        size: 4.4rem;
+        weight: 400;
+    }
+    @extend %heading;
+    color: $heading-colour;
+    line-height: 1.3;
+
+    &--right {
+        text-align: right;
+    }
+
+    &--left {
+        text-align: left;
+    }
+
+    &--centre {
+        text-align: center;
+        color: $heading-colour;
+    }
+
+}
+
+.heading-tertiary {
+    font: {
+        size: 2.5rem;
+        weight: 700;
+    }
+
+    @extend %heading;
+}
+
+.heading-4 {
+    font: {
+        size: 1.4rem;
+        family: $display-font;
+        weight: 700;
+    }
+    text-transform: uppercase;
+    @extend %heading;
+    color: $heading-colour;
+}

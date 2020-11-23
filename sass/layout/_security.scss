@@ -1,0 +1,46 @@
+
+.section-security {
+    margin: 0 auto{
+        top: 12rem;
+        bottom: 12rem;
+    }
+
+    border: {
+        radius: 12px;
+    }
+
+    width: 94%;
+    box-shadow: $bd-lg;
+    
+    padding: {
+        top: 8rem;
+        bottom: 8rem;
+    }
+}
+
+.security {
+    &__feature {
+        p {
+            margin-top: 1.2rem;
+            font: {
+                size: 1.6rem;
+                weight: 400;
+                family: $text-font;
+            }
+            color: $text-color;
+        }
+    }
+    &__icon {
+        margin-bottom: 4rem;
+    }
+
+    &__heading {
+        margin-bottom: 1rem;
+    }
+    &__cta {
+        text-align: center;
+        margin-top: 11rem;
+        margin-bottom: 3rem;
+    }
+
+}

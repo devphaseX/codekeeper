@@ -1,0 +1,33 @@
+
+
+.section-download {
+    background-color: $primary-colour;
+    width: 70%;
+    margin: 0 auto {
+        top: 12rem;
+        bottom: 12rem;
+    }
+    padding: 6rem;
+    border-radius: 12px;
+    color: $colour-white;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.download {
+    &__content {
+        font: {
+            size: 1.6rem;
+            family: $text-font;
+        }
+        max-width: 40rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.guide-img {
+    width: 100%;
+    margin: {
+        bottom: -30rem;
+        left: -6rem;
+    }
+}

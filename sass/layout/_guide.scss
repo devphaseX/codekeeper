@@ -1,0 +1,53 @@
+
+.section-guide {
+    padding: 12rem 0;
+    text-align: right;
+}
+
+.guides {
+    float: right;
+    list-style: none;
+
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__item {
+        float: none;
+        margin-bottom: 6rem;
+        cursor: pointer;
+    }
+
+    &__item:hover &__content,
+    &__item:active &__content {
+        display: block;
+        opacity: 1;
+    }
+    &__icon {
+        margin-left: 3rem;
+        vertical-align: middle;
+    }
+
+    &__content {
+        font: {
+            size: 1.6rem;
+            family: $text-font;
+        }
+        
+        max-width: 35rem;
+        color: $text-color;
+        opacity: 0;
+        visibility: none;
+        display: none;
+        transition: all .2s;
+    }
+
+    &__image {
+        height: 50rem;
+        margin-top: 3rem;
+    }
+
+}

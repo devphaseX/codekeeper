@@ -1,0 +1,62 @@
+.section-showcase {
+    padding-top: 13rem;
+}
+.showcase {
+    &__paragraph {
+        font: {
+            family: $text-font;
+            size: 1.6rem;
+        }
+        text-align: right;
+        color: $text-color;
+        margin-top: 2rem;
+    }
+
+    &__btn {
+        float: right;
+    }
+
+    &-box {
+        box-shadow: $bd-sm;
+        padding: 3rem;
+        padding-top: 6rem;
+        border-radius: 5px;
+        position: relative;
+
+        // &-1 {
+        //     transform: translateX(3rem);
+        // }
+
+        &-2 {
+            transform: translateY(5rem);
+        }
+
+        &-3 {
+            transform: translate(3rem ,-5rem);
+        }
+
+        &-4 {
+            transform: translateY(9rem);
+        }
+    }
+
+    &__content {
+        font: {
+            family: $text-font;
+            size: 1.6rem;
+        }
+        color: $text-color;
+        margin: 2rem 0;
+
+        &::before {
+            content:"\201C";
+            font-size: 500%;
+            font-family: serif;
+            position: absolute;
+            display: block;
+            top: -2rem;
+            margin-top: 1rem;
+            color: $colour-grey;
+        }
+    }
+}

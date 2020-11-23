@@ -1,0 +1,36 @@
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    // This define what 1 rem..
+    font-size: 62.5%; // 1rem = 10px , 10px/16px
+    box-sizing: border-box;
+
+    // FONT SIZE ADAPTATION SCREEN SETTINGS
+    @include respond(tab-land) { // width < 1200px
+        font-size: 56.25%; // 1rem = 9px , 9px/16px
+    }
+
+    @include respond(tab-port) {  // width < 900px
+        font-size: 50%; // 1rem = 8px , 8px/16px
+    }
+
+    @include respond(big-desk) {  // width > 1800px
+        font-size: 75%; // 1rem = 12px , 12px/16px
+    }
+}
+
+body {
+    font: {
+        weight: 400;
+    }
+    line-height: 1.9;
+    letter-spacing: 1px;
+    box-sizing: inherit;
+}

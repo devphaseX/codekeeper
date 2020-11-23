@@ -1,0 +1,27 @@
+
+.section-software {
+    background: url(../../img/Slogan@3x.png){
+        position: center;
+        size: cover;
+    }
+    // background-color: $primary-colour;
+    color: $colour-white;
+    padding: 8rem 0;
+    margin-top: -4rem;
+    position: relative;
+    z-index: 5;
+}
+
+.software {
+    &-heading {
+        color: $display-colour !important;
+        width: 80%;
+    }
+
+    &__paragraph {
+        font: {
+            family: $text-font;
+            size: 1.6rem;
+        }
+    }
+}
